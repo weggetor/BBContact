@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project>
+  <configuration createBackupFiles="False" hideEmptyRows="False" hideTranslatedRows="False" useSpellChecker="True" neutralLanguageCode="en-US" languagesToDisplay="">
+    <globalSetting name="AddNewFileGroupForm.destinationLanguagesListBox">0;1;2</globalSetting>
+    <globalSetting name="AddNewFileGroupForm.extensionComboBoxEdit">0</globalSetting>
+    <globalSetting name="AddNewFileGroupForm.baseFolderTextEdit.Text">C:\Inetpub\wwwroot\bbstore\DesktopModules\BBStore\App_LocalResources</globalSetting>
+    <globalSetting name="AddNewFileGroupForm.baseFileNameTextEdit.Text">ProductOptionSelectControl.ascx</globalSetting>
+    <globalSetting name="Filter-ResourceEditorGrid">&lt;XtraSerializer version="1.0" application="View"&gt;
+  &lt;property name="#LayoutVersion" /&gt;
+  &lt;property name="ActiveFilterString" /&gt;
+&lt;/XtraSerializer&gt;</globalSetting>
+    <globalSetting name="Sort-ResourceEditorGrid">&lt;XtraSerializer version="1.0" application="View"&gt;
+  &lt;property name="#LayoutVersion" /&gt;
+  &lt;property name="SortInfo"&gt;~Xtra#Base64AAEAAAD/////AQAAAAAAAAAMAgAAAF5EZXZFeHByZXNzLlh0cmFHcmlkLnYxMS4xLCBWZXJzaW9uPTExLjEuMTIuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iODhkMTc1NGQ3MDBlNDlhBQEAAAA4RGV2RXhwcmVzcy5YdHJhR3JpZC5Db2x1bW5zLkdyaWRDb2x1bW5Tb3J0SW5mb0NvbGxlY3Rpb24EAAAACmdyb3VwQ291bnQFY2xvbmUPY2xvbmVHcm91cENvdW50E0NvbGxlY3Rpb25CYXNlK2xpc3QAAwADCLMBU3lzdGVtLkNvbGxlY3Rpb25zLkdlbmVyaWMuTGlzdGAxW1tEZXZFeHByZXNzLlh0cmFHcmlkLkNvbHVtbnMuR3JpZENvbHVtblNvcnRJbmZvLCBEZXZFeHByZXNzLlh0cmFHcmlkLnYxMS4xLCBWZXJzaW9uPTExLjEuMTIuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iODhkMTc1NGQ3MDBlNDlhXV0IHFN5c3RlbS5Db2xsZWN0aW9ucy5BcnJheUxpc3QCAAAAAAAAAAkDAAAAAAAAAAkEAAAABAMAAACzAVN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLkxpc3RgMVtbRGV2RXhwcmVzcy5YdHJhR3JpZC5Db2x1bW5zLkdyaWRDb2x1bW5Tb3J0SW5mbywgRGV2RXhwcmVzcy5YdHJhR3JpZC52MTEuMSwgVmVyc2lvbj0xMS4xLjEyLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjg4ZDE3NTRkNzAwZTQ5YV1dAwAAAAZfaXRlbXMFX3NpemUIX3ZlcnNpb24EAAAwRGV2RXhwcmVzcy5YdHJhR3JpZC5Db2x1bW5zLkdyaWRDb2x1bW5Tb3J0SW5mb1tdAgAAAAgICQUAAAAAAAAAAAAAAAQEAAAAHFN5c3RlbS5Db2xsZWN0aW9ucy5BcnJheUxpc3QDAAAABl9pdGVtcwVfc2l6ZQhfdmVyc2lvbgUAAAgICQYAAAABAAAABAAAAAcFAAAAAAEAAAAAAAAABC5EZXZFeHByZXNzLlh0cmFHcmlkLkNvbHVtbnMuR3JpZENvbHVtblNvcnRJbmZvAgAAABAGAAAABAAAAAkHAAAADQMMCAAAABlEZXZFeHByZXNzLlh0cmFHcmlkLnYxMS4xBQcAAAAuRGV2RXhwcmVzcy5YdHJhR3JpZC5Db2x1bW5zLkdyaWRDb2x1bW5Tb3J0SW5mbwIAAAAJU29ydE9yZGVyCkNvbHVtbk5hbWUAAQgIAAAAAQAAAAYJAAAAB2NvbE5hbWUL&lt;/property&gt;
+&lt;/XtraSerializer&gt;</globalSetting>
+    <globalSetting name="CreateNewFileForm.prefixTextBox.Text">####</globalSetting>
+    <globalSetting name="CreateNewFileForm.prefixCheckBox.Checked">False</globalSetting>
+    <globalSetting name="CreateNewFileForm.referenceLanguageComboBox.SelectedIndex">0</globalSetting>
+    <globalSetting name="CreateNewFileForm.newLanguageComboBox.SelectedIndex">262</globalSetting>
+    <globalSetting name="CreateNewFileForm.copyTextsCheckBox.Checked">True</globalSetting>
+    <globalSetting name="CreateNewFileForm.automaticallyTranslateCheckBox.Checked">True</globalSetting>
+    <globalSetting name="projectMruItems">&lt;?xml version='1.0' encoding='utf-8'?&gt;&lt;items&gt;&lt;item type="2" checksum="9696420722" /&gt;&lt;item type="2" checksum="3756220213" /&gt;&lt;/items&gt;</globalSetting>
+    <userSetting name="Torsten@TW-WIN8-DEVWEB.filesInitialDir">C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources</userSetting>
+    <userSetting name="Torsten@TW-WIN8-DEVWEB.FindText">
+    </userSetting>
+    <userSetting name="Torsten@TW-WIN8-DEVWEB.RecentFiles">C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\Settings.ascx.resx;C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\Settings.ascx.de-DE.resx;C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\Settings.ascx.en-GB.resx;C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\Settings.ascx.es-ES.resx;C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\Settings.ascx.fr-FR.resx;C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\Settings.ascx.it-IT.resx;C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\Settings.ascx.nl-NL.resx###***###C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\View.ascx.resx;C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\View.ascx.de-DE.resx;C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\View.ascx.en-GB.resx;C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\View.ascx.es-ES.resx;C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\View.ascx.fr-FR.resx;C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\View.ascx.it-IT.resx;C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\View.ascx.nl-NL.resx</userSetting>
+    <description>
+    </description>
+  </configuration>
+  <fileGroups>
+    <fileGroup name="" projectFolderUniqueID="00000000-0000-0000-0000-000000000000" orderPosition="0" ignoreDuringExportAndImport="False" uniqueID="9b7b158b-82b4-41e3-81dd-8b4873e3a4f8">
+      <file filePath="App_LocalResources\Settings.ascx.resx" absoluteFilePath="C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\Settings.ascx.resx" uniqueID="b972664e-40fb-49fc-b686-91f6a9f3974c" />
+      <file filePath="App_LocalResources\Settings.ascx.de-DE.resx" absoluteFilePath="C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\Settings.ascx.de-DE.resx" uniqueID="731b68dd-8538-4bd6-bacb-9d5b103715b7" />
+      <file filePath="App_LocalResources\Settings.ascx.en-GB.resx" absoluteFilePath="C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\Settings.ascx.en-GB.resx" uniqueID="3536516b-c9fc-4c41-81c0-81486d116654" />
+      <file filePath="App_LocalResources\Settings.ascx.es-ES.resx" absoluteFilePath="C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\Settings.ascx.es-ES.resx" uniqueID="38d7d044-096f-4616-81e3-babdcefb7f0b" />
+      <file filePath="App_LocalResources\Settings.ascx.fr-FR.resx" absoluteFilePath="C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\Settings.ascx.fr-FR.resx" uniqueID="60706ef4-7881-4538-b2e1-2dbb2ea5a1d3" />
+      <file filePath="App_LocalResources\Settings.ascx.it-IT.resx" absoluteFilePath="C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\Settings.ascx.it-IT.resx" uniqueID="769ae69f-3224-4bee-87e8-45f8fe6067a4" />
+      <file filePath="App_LocalResources\Settings.ascx.nl-NL.resx" absoluteFilePath="C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\Settings.ascx.nl-NL.resx" uniqueID="f3ebb5b0-0495-444b-8be0-9ae662feeea6" />
+      <remarks>
+      </remarks>
+    </fileGroup>
+    <fileGroup name="" projectFolderUniqueID="00000000-0000-0000-0000-000000000000" orderPosition="0" ignoreDuringExportAndImport="False" uniqueID="60a62ef3-12a8-4f19-bc54-f3a1c82a8831">
+      <file filePath="App_LocalResources\View.ascx.resx" absoluteFilePath="C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\View.ascx.resx" uniqueID="436206f8-3ad6-4ca0-886d-c9b26959a388" />
+      <file filePath="App_LocalResources\View.ascx.de-DE.resx" absoluteFilePath="C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\View.ascx.de-DE.resx" uniqueID="0259b8f2-8092-4520-8786-a63bff608806" />
+      <file filePath="App_LocalResources\View.ascx.en-GB.resx" absoluteFilePath="C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\View.ascx.en-GB.resx" uniqueID="c1ab8bd8-f9ba-4f1a-8806-b200ace66d48" />
+      <file filePath="App_LocalResources\View.ascx.es-ES.resx" absoluteFilePath="C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\View.ascx.es-ES.resx" uniqueID="4d870869-91c7-493e-a79e-b68d1bd26ca9" />
+      <file filePath="App_LocalResources\View.ascx.fr-FR.resx" absoluteFilePath="C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\View.ascx.fr-FR.resx" uniqueID="530a90d8-b3e4-4545-b1bb-80d74e344595" />
+      <file filePath="App_LocalResources\View.ascx.it-IT.resx" absoluteFilePath="C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\View.ascx.it-IT.resx" uniqueID="1c97cc4d-9365-4207-a90a-8f4d6ae7abfd" />
+      <file filePath="App_LocalResources\View.ascx.nl-NL.resx" absoluteFilePath="C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources\View.ascx.nl-NL.resx" uniqueID="f54bf28a-d2e5-40f6-99c4-ee303fe3697f" />
+      <remarks>
+      </remarks>
+    </fileGroup>
+  </fileGroups>
+  <projectFolders>
+    <projectFolder uniqueID="9fc524da-2c1a-407f-a1b4-1db7d519504b" parentUniqueID="00000000-0000-0000-0000-000000000000" name="BBContact" orderPosition="0">
+      <remarks>
+      </remarks>
+      <dynSettings />
+    </projectFolder>
+  </projectFolders>
+</project>

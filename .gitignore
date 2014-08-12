@@ -15,6 +15,15 @@ build/
 [Bb]in/
 [Oo]bj/
 
+# DNN Files
+*.dnn
+*.dnn5
+*.dnn6
+*.dnn7
+[Ii]nstallation/*.zip
+Bitboxx.DNNModules.BBContact.xml
+
+
 # Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
 !packages/*/build/
 

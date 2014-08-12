@@ -1,0 +1,92 @@
+<dotnetnuke type="Package" version="5.0">
+  <packages>
+    <package name="BBContact" type="Module" version="01.00.00">
+      <friendlyName>BBContact</friendlyName>
+      <description>BBContact</description>
+      <iconFile>DesktopModules\BBContact\BBContact.png</iconFile>
+      <owner>
+        <name>Torsten Weggen</name>
+        <organization>bitboxx solutions</organization>
+        <url>http://www.bitboxx.net</url>
+        <email>info@bitboxx.net</email>
+      </owner>
+      <license src="License.txt"></license>
+      <releaseNotes src="Release.01.00.00.txt"></releaseNotes>
+      <azureCompatible>True</azureCompatible>
+      <dependencies>
+        <dependency type="CoreVersion">06.01.00</dependency>
+      </dependencies>
+      <components>
+        <component type="Script">
+          <scripts>
+            <basePath>DesktopModules\BBContact</basePath>
+            <script type="Install">
+              <path>Installation</path>
+              <name>01.00.00.SqlDataProvider</name>
+              <version>01.00.00</version>
+            </script>
+            <script type="Uninstall">
+              <path>Installation</path>
+              <name>Uninstall.SqlDataProvider</name>
+            </script>
+          </scripts>
+        </component>
+        <component type="Module">
+          <desktopModule>
+            <moduleName>BBContact</moduleName>
+            <foldername>BBContact</foldername>
+            <businessControllerClass>Bitboxx.DNNModules.BBContact.BBContactController,Bitboxx.DNNModules.BBContact</businessControllerClass>
+            <supportedFeatures>
+              <supportedFeature type="Portable" />
+              <supportedFeature type="Searchable" />
+            </supportedFeatures>
+            <moduleDefinitions>
+              <moduleDefinition>
+                <friendlyName>BBContact</friendlyName>
+                <defaultCacheTime>0</defaultCacheTime>
+                <moduleControls>
+                  <moduleControl>
+                    <controlKey />
+                    <controlSrc>DesktopModules/BBContact/View.ascx</controlSrc>
+                    <supportsPartialRendering>true</supportsPartialRendering>
+                    <supportsPopUps>false</supportsPopUps>
+                    <controlTitle>BBContact</controlTitle>
+                    <controlType>View</controlType>
+                    <helpUrl />
+                  </moduleControl>
+                  <moduleControl>
+                    <controlKey>Settings</controlKey>
+                    <controlSrc>DesktopModules/BBContact/Settings.ascx</controlSrc>
+                    <supportsPartialRendering>true</supportsPartialRendering>
+                    <supportsPopUps>true</supportsPopUps>
+                    <controlTitle>Configure settings</controlTitle>
+                    <controlType>Edit</controlType>
+                    <helpUrl />
+                  </moduleControl>
+                </moduleControls>
+              </moduleDefinition>
+            </moduleDefinitions>
+          </desktopModule>
+        </component>
+        <component type="Assembly">
+          <assemblies>
+            <assembly>
+              <path>bin</path>
+              <name>Bitboxx.DNNModules.BBContact.dll</name>
+            </assembly>
+          </assemblies>
+        </component>
+        <component type="ResourceFile">
+          <resourceFiles>
+            <basePath>DesktopModules\BBContact</basePath>
+            <resourceFile>
+              <name>resources.zip</name>
+              <sourceFileName>resources.zip</sourceFileName>
+            </resourceFile>
+          </resourceFiles>
+        </component>
+        <component type="Cleanup" version="01.00.00" fileName="Installation\CleanUp\CleanUp.01.00.00.txt" />
+      </components>
+    </package>
+  </packages>
+</dotnetnuke>
