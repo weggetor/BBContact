@@ -23,50 +23,57 @@
             <asp:TextBox runat="server" ID="txtSubject"/>
         </div>
         <div class="dnnFormItem">
-            <dnn:Label ID="lblBodyText" runat="server" ControlName="txtBodyText" Suffix=":"/>
-            <asp:TextBox runat="server" ID="txtBodyText" Rows="10" TextMode="MultiLine"/>
-        </div>
- </fieldset>
-    <fieldset>
-        <div class="dnnFormItem">
-            <dnn:Label ID="lblFirstname" runat="server" ControlName="chkFirstnameMandatory" Suffix=":"/>
-            <asp:CheckBox runat="server" ID="chkFirstnameVisible"/>
-            <asp:CheckBox runat="server" ID="chkFirstnameMandatory"/>
+            <dnn:Label ID="lblBodytext" runat="server" ControlName="txtBodytext" Suffix=":"/>
+            <asp:TextBox runat="server" ID="txtBodytext" Rows="10" TextMode="MultiLine" Font-Names='courier, "courier new", monospace' />
         </div>
         <div class="dnnFormItem">
-            <dnn:Label ID="lblLastname" runat="server" ControlName="chkLastnameMandatory" Suffix=":"/>
-            <asp:CheckBox runat="server" ID="chkLastnameVisible"/>
-            <asp:CheckBox runat="server" ID="chkLastnameMandatory"/>
-        </div>
-        <div class="dnnFormItem">
-            <dnn:Label ID="lblOrganization" runat="server" ControlName="chkOrganizationMandatory" Suffix=":"/>
-            <asp:CheckBox runat="server" ID="chkOrganizationVisible"/>
-            <asp:CheckBox runat="server" ID="chkOrganizationMandatory"/>
-        </div>
-        <div class="dnnFormItem">
-            <dnn:Label ID="lblAddress" runat="server" ControlName="chkAddressMandatory" Suffix=":"/>
-            <asp:CheckBox runat="server" ID="chkAddressVisible"/>
-            <asp:CheckBox runat="server" ID="chkAddressMandatory" />
-        </div>
-        <div class="dnnFormItem">
-            <dnn:Label ID="lblPhone" runat="server" ControlName="chkPhoneMandatory" Suffix=":"/>
-            <asp:CheckBox runat="server" ID="chkPhoneVisible"/>
-            <asp:CheckBox runat="server" ID="chkPhoneMandatory"/>
-        </div>
-         <div class="dnnFormItem">
-            <dnn:Label ID="lblFax" runat="server" ControlName="chkFaxMandatory" Suffix=":"/>
-             <asp:CheckBox runat="server" ID="chkFaxVisible"/>
-            <asp:CheckBox runat="server" ID="chkFaxMandatory"/>
-        </div>
-        <div class="dnnFormItem">
-            <dnn:Label ID="lblEmail" runat="server" ControlName="chkEmailMandatory" Suffix=":"/>
-            <asp:CheckBox runat="server" ID="chkEmailVisible"/>
-            <asp:CheckBox runat="server" ID="chkEmailMandatory"/>
-        </div>
-        <div class="dnnFormItem">
-            <dnn:Label ID="lblRemark" runat="server" ControlName="chkRemarkMandatory" Suffix=":"/>
-            <asp:CheckBox runat="server" ID="chkRemarkVisible"/>
-            <asp:CheckBox runat="server" ID="chkRemarkMandatory" />
-        </div>
+            <dnn:Label ID="lblFields" runat="server" ControlName="chkFirstnameVisible" Suffix=":"/>
+            <table>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th><asp:Label runat="server" ID="lblVisible" Text="visible"/></th> 
+                    <th><asp:Label runat="server" ID="lblMandatory" Text="mandatory"/></th> 
+                </tr>
+                <tr>
+                    <td><asp:Label ID="lblFirstname" runat="server" ResourceKey="lblFirstname.Text"/></td>
+                    <td><asp:CheckBox runat="server" ID="chkFirstnameVisible"/></td>
+                    <td><asp:CheckBox runat="server" ID="chkFirstnameMandatory"/></td>
+                </tr>
+                <tr>
+                    <td><asp:Label ID="lblLastname" runat="server" ResourceKey="lblLastname.Text"/></td>
+                    <td><asp:CheckBox runat="server" ID="chkLastnameVisible"/></td>
+                    <td><asp:CheckBox runat="server" ID="chkLastnameMandatory"/></td>
+                </tr>
+                <tr>
+                    <td><asp:Label ID="lblOrganization" runat="server" ResourceKey="lblOrganization.Text"/></td>
+                    <td><asp:CheckBox runat="server" ID="chkOrganizationVisible"/></td>
+                    <td><asp:CheckBox runat="server" ID="chkOrganizationMandatory"/></td>
+                </tr>
+                <tr>
+                    <td><asp:Label ID="lblAddress" runat="server" ResourceKey="lblAddress.Text"/></td>
+                    <td><asp:CheckBox runat="server" ID="chkAddressVisible"/></td>
+                    <td><asp:CheckBox runat="server" ID="chkAddressMandatory"/></td>
+                </tr>
+                <tr>
+                    <td><asp:Label ID="lblPhone" runat="server" ResourceKey="lblPhone.Text"/></td>
+                    <td><asp:CheckBox runat="server" ID="chkPhoneVisible"/></td>
+                    <td><asp:CheckBox runat="server" ID="chkPhoneMandatory"/></td>
+                </tr>
+                <tr>
+                    <td><asp:Label ID="lblFax" runat="server" ResourceKey="lblFax.Text"/></td>
+                    <td><asp:CheckBox runat="server" ID="chkFaxVisible"/></td>
+                    <td><asp:CheckBox runat="server" ID="chkFaxMandatory"/></td>
+                </tr>
+                <tr>
+                    <td><asp:Label ID="lblEmail" runat="server" ResourceKey="lblEmail.Text"/></td>
+                    <td><asp:CheckBox runat="server" ID="chkEmailVisible"/></td>
+                    <td><asp:CheckBox runat="server" ID="chkEmailMandatory"/></td>
+                </tr>
+                <tr>
+                    <td><asp:Label ID="lblRemark" runat="server" ResourceKey="lblRemark.Text"/></td>
+                    <td><asp:CheckBox runat="server" ID="chkRemarkVisible"/></td>
+                    <td><asp:CheckBox runat="server" ID="chkRemarkMandatory"/></td>
+                </tr>
+            </table>
     </fieldset>
 </div>

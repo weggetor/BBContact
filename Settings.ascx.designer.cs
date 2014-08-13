@@ -103,22 +103,49 @@ namespace Bitboxx.DNNModules.BBContact {
         protected global::System.Web.UI.WebControls.TextBox txtSubject;
         
         /// <summary>
-        /// lblBodyText control.
+        /// lblBodytext control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UserControl lblBodyText;
+        protected global::System.Web.UI.UserControl lblBodytext;
         
         /// <summary>
-        /// txtBodyText control.
+        /// txtBodytext control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtBodyText;
+        protected global::System.Web.UI.WebControls.TextBox txtBodytext;
+        
+        /// <summary>
+        /// lblFields control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.UserControl lblFields;
+        
+        /// <summary>
+        /// lblVisible control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblVisible;
+        
+        /// <summary>
+        /// lblMandatory control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMandatory;
         
         /// <summary>
         /// lblFirstname control.
@@ -127,7 +154,7 @@ namespace Bitboxx.DNNModules.BBContact {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UserControl lblFirstname;
+        protected global::System.Web.UI.WebControls.Label lblFirstname;
         
         /// <summary>
         /// chkFirstnameVisible control.
@@ -154,7 +181,7 @@ namespace Bitboxx.DNNModules.BBContact {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UserControl lblLastname;
+        protected global::System.Web.UI.WebControls.Label lblLastname;
         
         /// <summary>
         /// chkLastnameVisible control.
@@ -181,7 +208,7 @@ namespace Bitboxx.DNNModules.BBContact {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UserControl lblOrganization;
+        protected global::System.Web.UI.WebControls.Label lblOrganization;
         
         /// <summary>
         /// chkOrganizationVisible control.
@@ -208,7 +235,7 @@ namespace Bitboxx.DNNModules.BBContact {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UserControl lblAddress;
+        protected global::System.Web.UI.WebControls.Label lblAddress;
         
         /// <summary>
         /// chkAddressVisible control.
@@ -235,7 +262,7 @@ namespace Bitboxx.DNNModules.BBContact {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UserControl lblPhone;
+        protected global::System.Web.UI.WebControls.Label lblPhone;
         
         /// <summary>
         /// chkPhoneVisible control.
@@ -262,7 +289,7 @@ namespace Bitboxx.DNNModules.BBContact {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UserControl lblFax;
+        protected global::System.Web.UI.WebControls.Label lblFax;
         
         /// <summary>
         /// chkFaxVisible control.
@@ -289,7 +316,7 @@ namespace Bitboxx.DNNModules.BBContact {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UserControl lblEmail;
+        protected global::System.Web.UI.WebControls.Label lblEmail;
         
         /// <summary>
         /// chkEmailVisible control.
@@ -316,7 +343,7 @@ namespace Bitboxx.DNNModules.BBContact {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UserControl lblRemark;
+        protected global::System.Web.UI.WebControls.Label lblRemark;
         
         /// <summary>
         /// chkRemarkVisible control.

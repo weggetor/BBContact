@@ -180,4 +180,16 @@
 	<data name="lblSubject.Text" xml:space="preserve">
     <value>Asunto</value>
   </data>
+	<data name="lblFields.Help" xml:space="preserve">
+		<value>Revise los campos que deben mostrarse y que son obligatorios de rellenar.</value>
+	</data>
+	<data name="lblFields.Text" xml:space="preserve">
+		<value>Mostrar campos</value>
+	</data>
+	<data name="lblMandatory.Text" xml:space="preserve">
+		<value>obligatorio</value>
+	</data>
+	<data name="lblVisible.Text" xml:space="preserve">
+		<value>visible</value>
+	</data>
 </root>

@@ -51,9 +51,9 @@ namespace Bitboxx.DNNModules.BBContact
                         chkFirstnameVisible.Checked = Convert.ToBoolean(Settings["SendToUser"]);
 
                     if (Settings["Bodytext"] != null)
-                        txtBodyText.Text = (string) Settings["Bodytext"];
+                        txtBodytext.Text = (string) Settings["Bodytext"];
                     else
-                        txtBodyText.Text = "Contact form submission :\r\n\r\n" +
+                        txtBodytext.Text = "Contact form submission :\r\n\r\n" +
                                           "Firstname    :[FIRSTNAME]\r\n" +
                                           "Lastname     : [LASTNAME]\r\n" +
                                           "Organization : [ORGANIZATION]\r\n" +
@@ -120,7 +120,7 @@ namespace Bitboxx.DNNModules.BBContact
                 modules.UpdateModuleSetting(this.ModuleId, "RecipientEmail", txtRecipientEmail.Text.Trim());
                 modules.UpdateModuleSetting(this.ModuleId, "Subject", txtSubject.Text.Trim());
                 modules.UpdateModuleSetting(this.ModuleId, "SendToUser", chkSendToUser.Checked.ToString());
-                modules.UpdateModuleSetting(this.ModuleId, "Bodytext", txtBodyText.Text.Trim());
+                modules.UpdateModuleSetting(this.ModuleId, "Bodytext", txtBodytext.Text.Trim());
 
                 modules.UpdateModuleSetting(this.ModuleId, "VisibleFirstname", chkFirstnameVisible.Checked.ToString());
                 modules.UpdateModuleSetting(this.ModuleId, "VisibleLastname", chkLastnameVisible.Checked.ToString());

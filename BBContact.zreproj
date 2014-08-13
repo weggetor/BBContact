@@ -20,6 +20,10 @@
     <globalSetting name="CreateNewFileForm.copyTextsCheckBox.Checked">True</globalSetting>
     <globalSetting name="CreateNewFileForm.automaticallyTranslateCheckBox.Checked">True</globalSetting>
     <globalSetting name="projectMruItems">&lt;?xml version='1.0' encoding='utf-8'?&gt;&lt;items&gt;&lt;item type="2" checksum="9696420722" /&gt;&lt;item type="2" checksum="3756220213" /&gt;&lt;/items&gt;</globalSetting>
+    <globalSetting name="autoTranslateForm.prefixTextBox.Text">####</globalSetting>
+    <globalSetting name="autoTranslateForm.prefixCheckBox.Checked">True</globalSetting>
+    <globalSetting name="autoTranslateForm.referenceLanguageComboBoxEdit.SelectedIndex">0</globalSetting>
+    <globalSetting name="autoTranslateForm.languagesToTranslateCheckListBox">1;2;3;4;5</globalSetting>
     <userSetting name="Torsten@TW-WIN8-DEVWEB.filesInitialDir">C:\Sourcen_tfs\Bitboxx\BBContact\DNN\DesktopModules\BBContact\App_LocalResources</userSetting>
     <userSetting name="Torsten@TW-WIN8-DEVWEB.FindText">
     </userSetting>

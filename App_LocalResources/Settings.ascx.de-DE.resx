@@ -180,4 +180,16 @@
 	<data name="lblSubject.Text" xml:space="preserve">
     <value>Betreff</value>
   </data>
+	<data name="lblFields.Help" xml:space="preserve">
+		<value>Ankreuzen, welche Felder sichtbar und welche ausgefüllt werden müssen</value>
+	</data>
+	<data name="lblFields.Text" xml:space="preserve">
+		<value>Zeige Felder</value>
+	</data>
+	<data name="lblMandatory.Text" xml:space="preserve">
+		<value>nötig</value>
+	</data>
+	<data name="lblVisible.Text" xml:space="preserve">
+		<value>sichtbar</value>
+	</data>
 </root>
