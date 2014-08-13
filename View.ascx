@@ -48,6 +48,9 @@
             <ul class="dnnActions dnnClear">
                 <li><asp:LinkButton CssClass="dnnPrimaryAction" ID="cmdSend" runat="server" OnClick="cmdSend_Click" ResourceKey="cmdSend" /></li>
             </ul>
+            <div class="spamdefend">
+                <asp:TextBox runat="server" ID="txtSpamVerification"/>
+            </div>
         </div>
     </fieldset>
 </div>

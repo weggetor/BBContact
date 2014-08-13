@@ -157,16 +157,19 @@ namespace Bitboxx.DNNModules.BBContact
         {
             try
             {
-                SendContactMail();
-                DotNetNuke.UI.Skins.Skin.AddModuleMessage(this, LocalizeString("ResultOK.Text"), ModuleMessage.ModuleMessageType.GreenSuccess);
-                txtFirstname.Text = "";
-                txtLastname.Text = "";
-                txtOrganization.Text = "";
-                txtAddress.Text = "";
-                txtPhone.Text = "";
-                txtFax.Text = "";
-                txtEmail.Text = "";
-                txtRemark.Text = "";
+                if (String.IsNullOrWhiteSpace(txtSpamVerification.Text))
+                {
+                    SendContactMail();
+                    DotNetNuke.UI.Skins.Skin.AddModuleMessage(this, LocalizeString("ResultOK.Text"), ModuleMessage.ModuleMessageType.GreenSuccess);
+                    txtFirstname.Text = "";
+                    txtLastname.Text = "";
+                    txtOrganization.Text = "";
+                    txtAddress.Text = "";
+                    txtPhone.Text = "";
+                    txtFax.Text = "";
+                    txtEmail.Text = "";
+                    txtRemark.Text = "";
+                }
             }
             catch (Exception ex)
             {
