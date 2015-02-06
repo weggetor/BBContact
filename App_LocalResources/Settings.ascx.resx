@@ -157,13 +157,13 @@
     <value>Remark</value>
   </data>
 	<data name="lblSenderEmail.Help" xml:space="preserve">
-    <value>Enter the email address of the sender (e.g. "contact@mydomain.com")</value>
+    <value>Enter the email address of the sender (e.g. "contact@mydomain.com") or use the placeholder [EMAIL]</value>
   </data>
 	<data name="lblSenderEmail.Text" xml:space="preserve">
     <value>Sender email</value>
   </data>
 	<data name="lblSenderName.Help" xml:space="preserve">
-    <value>Enter the name of the sender (e.g. "Contact Form on www.mydomain.com")</value>
+    <value>Enter the name of the sender (e.g. "Contact Form on www.mydomain.com") or use the following placeholders: [FIRSTNAME],[LASTNAME],[ORGANIZATION],[ADDRESS],[PHONE],[FAX],[EMAIL],[REMARK]</value>
   </data>
 	<data name="lblSenderName.Text" xml:space="preserve">
     <value>Sender name</value>

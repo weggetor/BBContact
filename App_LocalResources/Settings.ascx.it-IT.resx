@@ -124,7 +124,7 @@
     <value>Indirizzo</value>
   </data>
 	<data name="lblBodytext.Help" xml:space="preserve">
-    <value>Inserire il Mailtext per il Emailbody. Utilizzare i seguenti segnaposto: [nome], [cognome], [organizzazione], [indirizzo], [telefono], [FAX], [EMAIL], [Nota]</value>
+    <value>Inserire il Mailtext per il Emailbody. Utilizzare i seguenti segnaposto: [FIRSTNAME],[LASTNAME],[ORGANIZATION],[ADDRESS],[PHONE],[FAX],[EMAIL],[REMARK]</value>
   </data>
 	<data name="lblBodytext.Text" xml:space="preserve">
     <value>Corpo di posta</value>
@@ -157,13 +157,13 @@
     <value>Osservazione</value>
   </data>
 	<data name="lblSenderEmail.Help" xml:space="preserve">
-    <value>Inserisci l'indirizzo email del mittente (ad esempio "contact@mydomain.com")</value>
+    <value>Inserisci l'indirizzo email del mittente (ad esempio "contact@mydomain.com") o utilizzare il segnaposto [EMAIL]</value>
   </data>
 	<data name="lblSenderEmail.Text" xml:space="preserve">
     <value>E-mail del mittente</value>
   </data>
 	<data name="lblSenderName.Help" xml:space="preserve">
-    <value>Immettere il nome del mittente (ad esempio "modulo di contatto su www.mydomain.com")</value>
+    <value>Immettere il nome del mittente (ad esempio "modulo di contatto su www.mydomain.com") oppure utilizzare i seguenti segnaposto: [FIRSTNAME],[LASTNAME],[ORGANIZATION],[ADDRESS],[PHONE],[FAX],[EMAIL],[REMARK]</value>
   </data>
 	<data name="lblSenderName.Text" xml:space="preserve">
     <value>Nome mittente</value>

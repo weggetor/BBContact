@@ -124,7 +124,7 @@
     <value>Adresse</value>
   </data>
 	<data name="lblBodytext.Help" xml:space="preserve">
-    <value>Entrez le Mailtext pour le Emailbody. Utiliser les espaces réservés suivants: [prénom], [nom], [l'Organisation], [adresse], [téléphone], [FAX], [EMAIL], [Remarque]</value>
+    <value>Entrez le Mailtext pour le Emailbody. Utiliser les espaces réservés suivants:[FIRSTNAME],[LASTNAME],[ORGANIZATION],[ADDRESS],[PHONE],[FAX],[EMAIL],[REMARK]</value>
   </data>
 	<data name="lblBodytext.Text" xml:space="preserve">
     <value>Corps du message</value>
@@ -157,13 +157,13 @@
     <value>Remarque</value>
   </data>
 	<data name="lblSenderEmail.Help" xml:space="preserve">
-    <value>Entrez l'adresse e-mail de l'expéditeur (par exemple "contact@mydomain.com")</value>
+    <value>Entrez l'adresse e-mail de l'expéditeur (par exemple "contact@mydomain.com") ou utilisez l'espace réservé [EMAIL]</value>
   </data>
 	<data name="lblSenderEmail.Text" xml:space="preserve">
     <value>E-mail de l'expéditeur</value>
   </data>
 	<data name="lblSenderName.Help" xml:space="preserve">
-    <value>Entrez le nom de l'expéditeur (par exemple "formulaire de Contact sur www.mydomain.com")</value>
+    <value>Entrez le nom de l'expéditeur (par exemple "formulaire de Contact sur www.mydomain.com ») ou utiliser les espaces réservés suivants: [FIRSTNAME],[LASTNAME],[ORGANIZATION],[ADDRESS],[PHONE],[FAX],[EMAIL],[REMARK]</value>
   </data>
 	<data name="lblSenderName.Text" xml:space="preserve">
     <value>Nom de l'expéditeur</value>

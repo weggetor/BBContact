@@ -124,7 +124,7 @@
     <value>Adres</value>
   </data>
 	<data name="lblBodytext.Help" xml:space="preserve">
-    <value>Voer de Mailtext voor de Emailbody. Gebruik de volgende tijdelijke aanduidingen: [Voornaam], [Achternaam], [organisatie], [adres], [telefoon], [FAX], [EMAIL], [Opmerking]</value>
+    <value>Voer de Mailtext voor de Emailbody. Gebruik de volgende tijdelijke aanduidingen: [FIRSTNAME],[LASTNAME],[ORGANIZATION],[ADDRESS],[PHONE],[FAX],[EMAIL],[REMARK]</value>
   </data>
 	<data name="lblBodytext.Text" xml:space="preserve">
     <value>Mail lichaam</value>
@@ -157,13 +157,13 @@
     <value>Opmerking</value>
   </data>
 	<data name="lblSenderEmail.Help" xml:space="preserve">
-    <value>Voer het e-mailadres van de afzender (bijvoorbeeld "contact@mydomain.com")</value>
+    <value>Voer het e-mailadres van de afzender (bijvoorbeeld "contact@mydomain.com") of gebruik van de tijdelijke aanduiding [EMAIL]</value>
   </data>
 	<data name="lblSenderEmail.Text" xml:space="preserve">
     <value>E-mail afzender</value>
   </data>
 	<data name="lblSenderName.Help" xml:space="preserve">
-    <value>Typ de naam van de afzender (bijvoorbeeld "contactformulier op www.mydomain.com")</value>
+    <value>Voer de naam van de afzender (bijvoorbeeld "contactformulier op www.mydomain.com") of gebruik de volgende tijdelijke aanduidingen:[FIRSTNAME],[LASTNAME],[ORGANIZATION],[ADDRESS],[PHONE],[FAX],[EMAIL],[REMARK]</value>
   </data>
 	<data name="lblSenderName.Text" xml:space="preserve">
     <value>Afzendernaam</value>

@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="BBContact" type="Module" version="01.00.00">
+    <package name="BBContact" type="Module" version="01.00.01">
       <friendlyName>BBContact</friendlyName>
       <description>BBContact</description>
       <iconFile>DesktopModules\BBContact\BBContact.png</iconFile>
@@ -11,7 +11,7 @@
         <email>info@bitboxx.net</email>
       </owner>
       <license src="License.txt"></license>
-      <releaseNotes src="Release.01.00.00.txt"></releaseNotes>
+      <releaseNotes src="Release.01.00.01.txt"></releaseNotes>
       <azureCompatible>True</azureCompatible>
       <dependencies>
         <dependency type="CoreVersion">06.01.00</dependency>

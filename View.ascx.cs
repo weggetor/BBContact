@@ -180,10 +180,22 @@ namespace Bitboxx.DNNModules.BBContact
 
         internal void SendContactMail()
         {
-            string senderMail = (string)Settings["SenderEmail"] ?? "";
-            string senderName = (string)Settings["SenderName"] ?? "";
-            string subject = (string)Settings["Subject"] ?? "Contact form submission from [EMAIL]";
+            string senderMail = (string)Settings["SenderEmail"];
+            senderMail = String.IsNullOrWhiteSpace(senderMail) ? "[EMAIL]" : senderMail;
+            senderMail = senderMail.Replace("[EMAIL]", txtEmail.Text.Trim());
 
+            string senderName = (string)Settings["SenderName"];
+            senderName = String.IsNullOrWhiteSpace(senderName) ? "[FIRSTNAME] [LASTNAME]" : senderName;
+            senderName = senderName.Replace("[FIRSTNAME]", txtFirstname.Text.Trim())
+                    .Replace("[LASTNAME]", txtLastname.Text.Trim())
+                    .Replace("[ORGANIZATION]", txtOrganization.Text.Trim())
+                    .Replace("[ADDRESS]", txtAddress.Text.Trim())
+                    .Replace("[PHONE]", txtPhone.Text.Trim())
+                    .Replace("[FAX]", txtFax.Text.Trim())
+                    .Replace("[EMAIL]", txtEmail.Text.Trim())
+                    .Replace("[REMARK]", txtRemark.Text.Trim());
+
+            string subject = (string)Settings["Subject"] ?? "Contact form submission from [EMAIL]";
             string recipientEmail = (string)Settings["RecipientEmail"] ?? "";
 
             try

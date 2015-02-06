@@ -124,7 +124,7 @@
     <value>Dirección</value>
   </data>
 	<data name="lblBodytext.Help" xml:space="preserve">
-    <value>Introduzca el Mailtext para el Emailbody. Utilice los siguientes marcadores de posición: [Apellido], [Apellido], [organización], [dirección], [teléfono], [FAX], [EMAIL], [Nota]</value>
+    <value>Introduzca el Mailtext para el Emailbody. Utilice los siguientes marcadores de posición: [FIRSTNAME],[LASTNAME],[ORGANIZATION],[ADDRESS],[PHONE],[FAX],[EMAIL],[REMARK]</value>
   </data>
 	<data name="lblBodytext.Text" xml:space="preserve">
     <value>Cuerpo del correo</value>
@@ -157,13 +157,13 @@
     <value>Observación</value>
   </data>
 	<data name="lblSenderEmail.Help" xml:space="preserve">
-    <value>Introduzca la dirección de correo electrónico del remitente (por ejemplo "contact@mydomain.com")</value>
+    <value>Introduzca la dirección de correo electrónico del remitente (por ejemplo "contact@mydomain.com") o utilice el marcador de posición [EMAIL]</value>
   </data>
 	<data name="lblSenderEmail.Text" xml:space="preserve">
     <value>Correo electrónico del remitente</value>
   </data>
 	<data name="lblSenderName.Help" xml:space="preserve">
-    <value>Introduzca el nombre del remitente (por ejemplo "formulario de contacto en www.mydomain.com")</value>
+    <value>Introduzca el nombre del remitente (por ejemplo "formulario de contacto en www.mydomain.com") o utilice los siguientes marcadores de posición:[FIRSTNAME],[LASTNAME],[ORGANIZATION],[ADDRESS],[PHONE],[FAX],[EMAIL],[REMARK]</value>
   </data>
 	<data name="lblSenderName.Text" xml:space="preserve">
     <value>Nombre del remitente</value>

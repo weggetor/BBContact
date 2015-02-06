@@ -201,18 +201,45 @@
             To modify move field declaration from designer file to code-behind file.
             </remarks>
         </member>
-        <member name="F:Bitboxx.DNNModules.BBContact.Settings.lblBodyText">
+        <member name="F:Bitboxx.DNNModules.BBContact.Settings.lblBodytext">
             <summary>
-            lblBodyText control.
+            lblBodytext control.
             </summary>
             <remarks>
             Auto-generated field.
             To modify move field declaration from designer file to code-behind file.
             </remarks>
         </member>
-        <member name="F:Bitboxx.DNNModules.BBContact.Settings.txtBodyText">
+        <member name="F:Bitboxx.DNNModules.BBContact.Settings.txtBodytext">
             <summary>
-            txtBodyText control.
+            txtBodytext control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.Settings.lblFields">
+            <summary>
+            lblFields control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.Settings.lblVisible">
+            <summary>
+            lblVisible control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.Settings.lblMandatory">
+            <summary>
+            lblMandatory control.
             </summary>
             <remarks>
             Auto-generated field.
@@ -763,6 +790,15 @@
         <member name="F:Bitboxx.DNNModules.BBContact.View.cmdSend">
             <summary>
             cmdSend control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.View.txtSpamVerification">
+            <summary>
+            txtSpamVerification control.
             </summary>
             <remarks>
             Auto-generated field.
