@@ -13,6 +13,15 @@ namespace Bitboxx.DNNModules.BBContact {
     public partial class View {
         
         /// <summary>
+        /// pnlBBContact control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl pnlBBContact;
+        
+        /// <summary>
         /// pnlFirstname control.
         /// </summary>
         /// <remarks>
@@ -28,7 +37,7 @@ namespace Bitboxx.DNNModules.BBContact {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UserControl lblFirstname;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblFirstname;
         
         /// <summary>
         /// txtFirstname control.
@@ -64,7 +73,7 @@ namespace Bitboxx.DNNModules.BBContact {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UserControl lblLastname;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblLastname;
         
         /// <summary>
         /// txtLastname control.
@@ -100,7 +109,7 @@ namespace Bitboxx.DNNModules.BBContact {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UserControl lblOrganization;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblOrganization;
         
         /// <summary>
         /// txtOrganization control.
@@ -136,7 +145,7 @@ namespace Bitboxx.DNNModules.BBContact {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UserControl lblAddress;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblAddress;
         
         /// <summary>
         /// txtAddress control.
@@ -172,7 +181,7 @@ namespace Bitboxx.DNNModules.BBContact {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UserControl lblPhone;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblPhone;
         
         /// <summary>
         /// txtPhone control.
@@ -208,7 +217,7 @@ namespace Bitboxx.DNNModules.BBContact {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UserControl lblFax;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblFax;
         
         /// <summary>
         /// txtFax control.
@@ -244,7 +253,7 @@ namespace Bitboxx.DNNModules.BBContact {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UserControl lblEmail;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblEmail;
         
         /// <summary>
         /// txtEmail control.
@@ -274,6 +283,78 @@ namespace Bitboxx.DNNModules.BBContact {
         protected global::System.Web.UI.WebControls.RegularExpressionValidator valEmailOK;
         
         /// <summary>
+        /// pnlInterest control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlInterest;
+        
+        /// <summary>
+        /// lblInterest control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblInterest;
+        
+        /// <summary>
+        /// ddlInterest control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList ddlInterest;
+        
+        /// <summary>
+        /// valInterest control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator valInterest;
+        
+        /// <summary>
+        /// pnlProduct control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlProduct;
+        
+        /// <summary>
+        /// lblProduct control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblProduct;
+        
+        /// <summary>
+        /// imgProduct control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image imgProduct;
+        
+        /// <summary>
+        /// hidProduct control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.HiddenField hidProduct;
+        
+        /// <summary>
         /// pnlRemark control.
         /// </summary>
         /// <remarks>
@@ -289,7 +370,7 @@ namespace Bitboxx.DNNModules.BBContact {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UserControl lblRemark;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblRemark;
         
         /// <summary>
         /// txtRemark control.
@@ -310,6 +391,15 @@ namespace Bitboxx.DNNModules.BBContact {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator valRemark;
         
         /// <summary>
+        /// pnlSendButtonDnn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlSendButtonDnn;
+        
+        /// <summary>
         /// lblDummy control.
         /// </summary>
         /// <remarks>
@@ -319,13 +409,31 @@ namespace Bitboxx.DNNModules.BBContact {
         protected global::System.Web.UI.UserControl lblDummy;
         
         /// <summary>
-        /// cmdSend control.
+        /// cmdSendDnn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton cmdSend;
+        protected global::System.Web.UI.WebControls.LinkButton cmdSendDnn;
+        
+        /// <summary>
+        /// pnlSendButtonBootstrap control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel pnlSendButtonBootstrap;
+        
+        /// <summary>
+        /// cmdSendBootstrap control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton cmdSendBootstrap;
         
         /// <summary>
         /// txtSpamVerification control.

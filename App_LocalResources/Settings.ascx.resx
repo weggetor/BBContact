@@ -124,7 +124,7 @@
     <value>Address</value>
   </data>
 	<data name="lblBodytext.Help" xml:space="preserve">
-    <value>Enter the Mailtext for the Emailbody. Use the following placeholders: [FIRSTNAME],[LASTNAME],[ORGANIZATION],[ADDRESS],[PHONE],[FAX],[EMAIL],[REMARK]</value>
+    <value>Enter the Mailtext for the Emailbody. Use the following placeholders: [FIRSTNAME],[LASTNAME],[ORGANIZATION],[ADDRESS],[PHONE],[FAX],[EMAIL],[INTEREST],[PRODUCT],[REMARK]</value>
   </data>
 	<data name="lblBodytext.Text" xml:space="preserve">
     <value>Mail body</value>
@@ -192,4 +192,25 @@
 	<data name="lblVisible.Text" xml:space="preserve">
     <value>visible</value>
   </data>
+	<data name="lblBootstrap.Help" xml:space="preserve">
+    <value>Check if you have a bootstrap 3 skin</value>
+  </data>
+	<data name="lblBootstrap.Text" xml:space="preserve">
+    <value>Use Bootstrap 3</value>
+  </data>
+	<data name="lblInterest.Text" xml:space="preserve">
+    <value>Interest</value>
+  </data>
+	<data name="lblInterests.Help" xml:space="preserve">
+    <value>Enter a comma separated list of topics, will be displayed as dropdownlist</value>
+  </data>
+	<data name="lblInterests.Text" xml:space="preserve">
+    <value>Interest</value>
+  </data>
+	<data name="lblProductHelp.Help" xml:space="preserve">
+		<value>Place images in folder &lt;i&gt;/Portals/x/Images/BBContact/&lt;/i&gt;. Must be filetype png!</value>
+	</data>
+	<data name="lblProduct.Text" xml:space="preserve">
+		<value>Product</value>
+	</data>
 </root>

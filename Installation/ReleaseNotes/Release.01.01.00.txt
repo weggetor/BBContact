@@ -1,0 +1,17 @@
+﻿<h2>Releasenotes</h2>
+<p><i>Version 01.01.00 (30.01.2016)</i></p>
+<ul>
+	<li>Added a dropdownlist with values defined as comma-seperated list in settings</li>
+	<li>Added the possibility to add a product by making usage of url parameter "product=xyz" (Shows image "images/BBContact/xyz.png" in form).</li>
+	<li>If no product is given (and Product is enabled) and an image "images/BBContact/standard-{0}.png" (with {0} = ModuleId) is present, this is shown as product image instead</li>
+	<li>If no product is given (and Product is enabled) and NO image "images/BBContact/standard-{0}.png" (with {0} = ModuleId) is present but a file named "images/BBContact/standard.png", this is shown as product image instead</li>
+</ul>
+<p><i>Version 01.00.01 (06.02.2015)</i></p>
+<ul>
+	<li>Added the possibility to enter placeholder [EMAIL] to setting senderemail and all placeholders to setting sendername for generating an email with the user as sender</li>
+</ul>
+<p><i>Version 01.00.00 (13.08.2014)</i></p>
+<ul>
+	<li>Initial release</li>
+</ul>
+	

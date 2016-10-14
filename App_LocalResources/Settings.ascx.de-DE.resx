@@ -124,7 +124,7 @@
     <value>Adresse</value>
   </data>
 	<data name="lblBodytext.Help" xml:space="preserve">
-    <value>Geben Sie den Mailtext für den Emailbody ein. Verwenden Sie die folgenden Platzhalter: [FIRSTNAME],[LASTNAME],[ORGANIZATION],[ADDRESS],[PHONE],[FAX],[EMAIL],[REMARK]</value>
+    <value>Geben Sie den Mailtext für den Emailbody ein. Verwenden Sie die folgenden Platzhalter: [FIRSTNAME],[LASTNAME],[ORGANIZATION],[ADDRESS],[PHONE],[FAX],[EMAIL],[INTEREST],[PRODUCT],[REMARK]</value>
   </data>
 	<data name="lblBodytext.Text" xml:space="preserve">
     <value>Email-Nachricht</value>
@@ -191,5 +191,26 @@
 	</data>
 	<data name="lblVisible.Text" xml:space="preserve">
 		<value>sichtbar</value>
+	</data>
+	<data name="lblBootstrap.Help" xml:space="preserve">
+		<value>Ankreuzen wenn Sie einen Bootstrap 3 Skin  einsetzen</value>
+	</data>
+	<data name="lblBootstrap.Text" xml:space="preserve">
+		<value>Verwende Bootstrap 3</value>
+	</data>
+	<data name="lblInterest.Text" xml:space="preserve">
+		<value>Interesse</value>
+	</data>
+	<data name="lblInterests.Help" xml:space="preserve">
+		<value>Fügen sie eine kommaseparierte Liste der Werte ein die in der Ausklappbox angezeigt werden sollen</value>
+	</data>
+	<data name="lblInterests.Text" xml:space="preserve">
+		<value>Interesse</value>
+	</data>
+	<data name="lblProductHelp.Help" xml:space="preserve">
+		<value>Platzieren Sie Bilder im Ordner &lt;i&gt;/Portals/x/Images/BBContact/&lt;/i&gt;. Dateityp muss png sein!</value>
+	</data>
+	<data name="lblProduct.Text" xml:space="preserve">
+		<value>Produkt</value>
 	</data>
 </root>

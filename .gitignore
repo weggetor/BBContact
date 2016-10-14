@@ -20,7 +20,7 @@ build/
 *.dnn5
 *.dnn6
 *.dnn7
-[Ii]nstallation/*/*.zip
+[Ii]nstallation/*.zip
 Bitboxx.DNNModules.BBContact.xml
 
 

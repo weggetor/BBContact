@@ -47,6 +47,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Net" />
     <Reference Include="System.Net.Http, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <Private>False</Private>
@@ -127,6 +128,7 @@
     <Content Include="Installation\CleanUp\CleanUp.01.00.00.txt" />
     <Content Include="Installation\Config\Config.txt" />
     <Content Include="Installation\License.txt" />
+    <Content Include="Installation\ReleaseNotes\Release.01.01.00.txt" />
     <Content Include="Installation\ReleaseNotes\Release.01.00.01.txt" />
     <Content Include="Installation\ReleaseNotes\Release.01.00.00.txt" />
     <Content Include="Settings.ascx" />

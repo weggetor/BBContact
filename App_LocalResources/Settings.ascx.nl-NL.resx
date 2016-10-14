@@ -124,7 +124,7 @@
     <value>Adres</value>
   </data>
 	<data name="lblBodytext.Help" xml:space="preserve">
-    <value>Voer de Mailtext voor de Emailbody. Gebruik de volgende tijdelijke aanduidingen: [FIRSTNAME],[LASTNAME],[ORGANIZATION],[ADDRESS],[PHONE],[FAX],[EMAIL],[REMARK]</value>
+    <value>Voer de Mailtext voor de Emailbody. Gebruik de volgende tijdelijke aanduidingen: [FIRSTNAME],[LASTNAME],[ORGANIZATION],[ADDRESS],[PHONE],[FAX],[EMAIL],[INTEREST],[PRODUCT],[REMARK]</value>
   </data>
 	<data name="lblBodytext.Text" xml:space="preserve">
     <value>Mail lichaam</value>
@@ -175,7 +175,7 @@
     <value>Kopie naar de gebruiker verzenden</value>
   </data>
 	<data name="lblSubject.Help" xml:space="preserve">
-    <value>Voer het onderwerp voor de e-mail. Gebruik de volgende tijdelijke aanduidingen: [Voornaam], [Achternaam], [organisatie], [adres], [telefoon], [FAX], [EMAIL], [Opmerking]</value>
+    <value>Voer het onderwerp voor de e-mail. Gebruik de volgende tijdelijke aanduidingen: [FIRSTNAME],[LASTNAME],[ORGANIZATION],[ADDRESS],[PHONE],[FAX],[EMAIL],[REMARK]</value>
   </data>
 	<data name="lblSubject.Text" xml:space="preserve">
     <value>Onderwerp</value>
@@ -190,6 +190,27 @@
 		<value>verplichte</value>
 	</data>
 	<data name="lblVisible.Text" xml:space="preserve">
-		<value>#### zichtbaar</value>
+		<value>zichtbaar</value>
+	</data>
+	<data name="lblBootstrap.Help" xml:space="preserve">
+		<value>Controleer of u een bootstrap 3 huid</value>
+	</data>
+	<data name="lblBootstrap.Text" xml:space="preserve">
+		<value>Bootstrap 3 gebruiken</value>
+	</data>
+	<data name="lblInterest.Text" xml:space="preserve">
+		<value>Belang</value>
+	</data>
+	<data name="lblInterests.Help" xml:space="preserve">
+		<value>Voer een door komma's gescheiden lijst met onderwerpen, wordt weergegeven als dropdownlist</value>
+	</data>
+	<data name="lblInterests.Text" xml:space="preserve">
+		<value>Belang</value>
+	</data>
+	<data name="lblProductHelp.Help" xml:space="preserve">
+		<value>Afbeeldingen in de map plaatsen &lt;i&gt;/Portals/x/Images/BBContact/&lt;/i&gt;. Filetype png moet!</value>
+	</data>
+	<data name="lblProduct.Text" xml:space="preserve">
+		<value>Product</value>
 	</data>
 </root>

@@ -124,28 +124,28 @@
     <value>Edit Module</value>
   </data>
 	<data name="lblAddress.Text" xml:space="preserve">
-    <value>Address</value>
+    <value>Address:</value>
   </data>
 	<data name="lblEmail.Text" xml:space="preserve">
-    <value>Email</value>
+    <value>Email:</value>
   </data>
 	<data name="lblFax.Text" xml:space="preserve">
-    <value>Fax</value>
+    <value>Fax:</value>
   </data>
 	<data name="lblFirstname.Text" xml:space="preserve">
-    <value>First name</value>
+    <value>First name:</value>
   </data>
 	<data name="lblLastname.Text" xml:space="preserve">
-    <value>Last name</value>
+    <value>Last name:</value>
   </data>
 	<data name="lblOrganization.Text" xml:space="preserve">
-    <value>Organization</value>
+    <value>Organization:</value>
   </data>
 	<data name="lblPhone.Text" xml:space="preserve">
-    <value>Phone</value>
+    <value>Phone:</value>
   </data>
 	<data name="lblRemark.Text" xml:space="preserve">
-    <value>What can we do for you</value>
+    <value>What can we do for you:</value>
   </data>
 	<data name="ResultError.Text" xml:space="preserve">
     <value>Something went wrong: {0}</value>
@@ -180,4 +180,13 @@
 	<data name="valRemark.Text" xml:space="preserve">
     <value>Remark is required</value>
   </data>
+	<data name="lblInterest.Text" xml:space="preserve">
+    <value>Interested on:</value>
+  </data>
+	<data name="valInterest.Text" xml:space="preserve">
+    <value>Interest is required</value>
+  </data>
+	<data name="lblProduct.Text" xml:space="preserve">
+		<value>Product:</value>
+	</data>
 </root>

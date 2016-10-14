@@ -124,7 +124,7 @@
     <value>Adresse</value>
   </data>
 	<data name="lblBodytext.Help" xml:space="preserve">
-    <value>Entrez le Mailtext pour le Emailbody. Utiliser les espaces réservés suivants:[FIRSTNAME],[LASTNAME],[ORGANIZATION],[ADDRESS],[PHONE],[FAX],[EMAIL],[REMARK]</value>
+    <value>Entrez le Mailtext pour le Emailbody. Utiliser les espaces réservés suivants:[FIRSTNAME],[LASTNAME],[ORGANIZATION],[ADDRESS],[PHONE],[FAX],[EMAIL],[INTEREST],[PRODUCT],[REMARK]</value>
   </data>
 	<data name="lblBodytext.Text" xml:space="preserve">
     <value>Corps du message</value>
@@ -175,7 +175,7 @@
     <value>Envoyer copie à l'utilisateur</value>
   </data>
 	<data name="lblSubject.Help" xml:space="preserve">
-    <value>Entrez l'objet de l'email. Utiliser les espaces réservés suivants: [prénom], [nom], [l'Organisation], [adresse], [téléphone], [FAX], [EMAIL], [Remarque]</value>
+    <value>Entrez l'objet de l'email. Utiliser les espaces réservés suivants: [FIRSTNAME],[LASTNAME],[ORGANIZATION],[ADDRESS],[PHONE],[FAX],[EMAIL],[REMARK]</value>
   </data>
 	<data name="lblSubject.Text" xml:space="preserve">
     <value>Objet</value>
@@ -191,5 +191,26 @@
 	</data>
 	<data name="lblVisible.Text" xml:space="preserve">
 		<value>visible</value>
+	</data>
+	<data name="lblBootstrap.Help" xml:space="preserve">
+		<value>Vérifiez si vous avez une peau bootstrap 3</value>
+	</data>
+	<data name="lblBootstrap.Text" xml:space="preserve">
+		<value>Utilisez  bootstrap 3</value>
+	</data>
+	<data name="lblInterest.Text" xml:space="preserve">
+		<value>Intérêt</value>
+	</data>
+	<data name="lblInterests.Help" xml:space="preserve">
+		<value>Entrez une liste séparée par des virgules des sujets, sera affiché dans le contrôle dropdownlist</value>
+	</data>
+	<data name="lblInterests.Text" xml:space="preserve">
+		<value>Intérêt</value>
+	</data>
+	<data name="lblProductHelp.Help" xml:space="preserve">
+		<value>Placer les images dans le dossier &lt;i&gt;/Portals/x/Images/BBContact/&lt;/i&gt;. Doit être le type de fichier png !</value>
+	</data>
+	<data name="lblProduct.Text" xml:space="preserve">
+		<value>Produit </value>
 	</data>
 </root>

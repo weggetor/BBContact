@@ -42,6 +42,9 @@ namespace Bitboxx.DNNModules.BBContact
                     if (Settings["RecipientEmail"] != null)
                         txtRecipientEmail.Text = (string)Settings["RecipientEmail"];
 
+                    if (Settings["Interest"] != null)
+                        txtInterests.Text = (string)Settings["Interest"];
+
                     if (Settings["Subject"] != null)
                         txtSubject.Text = (string) Settings["Subject"];
                     else
@@ -50,19 +53,23 @@ namespace Bitboxx.DNNModules.BBContact
                     if (Settings["SendToUser"] != null)
                         chkFirstnameVisible.Checked = Convert.ToBoolean(Settings["SendToUser"]);
 
+                    if (Settings["Bootstrap"] != null)
+                        chkBootstrap.Checked = Convert.ToBoolean(Settings["Bootstrap"]);
+
                     if (Settings["Bodytext"] != null)
                         txtBodytext.Text = (string) Settings["Bodytext"];
                     else
                         txtBodytext.Text = "Contact form submission :\r\n\r\n" +
-                                          "Firstname    :[FIRSTNAME]\r\n" +
+                                          "Firstname    : [FIRSTNAME]\r\n" +
                                           "Lastname     : [LASTNAME]\r\n" +
                                           "Organization : [ORGANIZATION]\r\n" +
                                           "Address      : [ADDRESS]\r\n" +
                                           "Phone        : [PHONE]\r\n" +
                                           "Fax          : [FAX]\r\n" +
                                           "Email        : [EMAIL]\r\n" +
-                                          "Remarks :\r\n" +
-                                          "[REMARK]";
+                                          "Interest     : [INTEREST]\r\n" +
+                                          "Product      : [PRODUCT]\r\n" +
+                                          "Remarks      : [REMARK]";
                     if (Settings["VisibleFirstname"] != null)
                         chkFirstnameVisible.Checked = Convert.ToBoolean(Settings["VisibleFirstname"]);
                     if (Settings["VisibleLastname"] != null)
@@ -79,6 +86,10 @@ namespace Bitboxx.DNNModules.BBContact
                         chkEmailVisible.Checked = Convert.ToBoolean(Settings["VisibleEmail"]);
                     if (Settings["VisibleRemark"] != null)
                         chkRemarkVisible.Checked = Convert.ToBoolean(Settings["VisibleRemark"]);
+                    if (Settings["VisibleInterest"] != null)
+                        chkInterestVisible.Checked = Convert.ToBoolean(Settings["VisibleInterest"]);
+                    if (Settings["VisibleProduct"] != null)
+                        chkProductVisible.Checked = Convert.ToBoolean(Settings["VisibleProduct"]);
                     
                     if (Settings["EnsureFirstname"] != null)
                         chkFirstnameMandatory.Checked = Convert.ToBoolean(Settings["EnsureFirstname"]);
@@ -96,6 +107,8 @@ namespace Bitboxx.DNNModules.BBContact
                         chkEmailMandatory.Checked = Convert.ToBoolean(Settings["EnsureEmail"]);
                     if (Settings["EnsureRemark"] != null)
                         chkRemarkMandatory.Checked = Convert.ToBoolean(Settings["EnsureRemark"]);
+                    if (Settings["EnsureInterest"] != null)
+                        chkInterestMandatory.Checked = Convert.ToBoolean(Settings["EnsureInterest"]);
                     
                 }
             }
@@ -115,12 +128,14 @@ namespace Bitboxx.DNNModules.BBContact
             try
             {
                 ModuleController modules = new ModuleController();
+                modules.UpdateModuleSetting(this.ModuleId, "Bootstrap", chkBootstrap.Checked.ToString());
                 modules.UpdateModuleSetting(this.ModuleId, "SenderName", txtSenderName.Text.Trim());
                 modules.UpdateModuleSetting(this.ModuleId, "SenderEmail", txtSenderEmail.Text.Trim());
                 modules.UpdateModuleSetting(this.ModuleId, "RecipientEmail", txtRecipientEmail.Text.Trim());
                 modules.UpdateModuleSetting(this.ModuleId, "Subject", txtSubject.Text.Trim());
                 modules.UpdateModuleSetting(this.ModuleId, "SendToUser", chkSendToUser.Checked.ToString());
                 modules.UpdateModuleSetting(this.ModuleId, "Bodytext", txtBodytext.Text.Trim());
+                modules.UpdateModuleSetting(this.ModuleId, "Interest", txtInterests.Text.Trim());
 
                 modules.UpdateModuleSetting(this.ModuleId, "VisibleFirstname", chkFirstnameVisible.Checked.ToString());
                 modules.UpdateModuleSetting(this.ModuleId, "VisibleLastname", chkLastnameVisible.Checked.ToString());
@@ -130,6 +145,8 @@ namespace Bitboxx.DNNModules.BBContact
                 modules.UpdateModuleSetting(this.ModuleId, "VisibleFax", chkFaxVisible.Checked.ToString());
                 modules.UpdateModuleSetting(this.ModuleId, "VisibleEmail", chkEmailVisible.Checked.ToString());
                 modules.UpdateModuleSetting(this.ModuleId, "VisibleRemark", chkRemarkVisible.Checked.ToString());
+                modules.UpdateModuleSetting(this.ModuleId, "VisibleInterest", chkInterestVisible.Checked.ToString());
+                modules.UpdateModuleSetting(this.ModuleId, "VisibleProduct", chkProductVisible.Checked.ToString());
 
                 modules.UpdateModuleSetting(this.ModuleId, "EnsureFirstname", chkFirstnameMandatory.Checked.ToString());
                 modules.UpdateModuleSetting(this.ModuleId, "EnsureLastname", chkLastnameMandatory.Checked.ToString());
@@ -139,6 +156,7 @@ namespace Bitboxx.DNNModules.BBContact
                 modules.UpdateModuleSetting(this.ModuleId, "EnsureFax", chkFaxMandatory.Checked.ToString());
                 modules.UpdateModuleSetting(this.ModuleId, "EnsureEmail", chkEmailMandatory.Checked.ToString());
                 modules.UpdateModuleSetting(this.ModuleId, "EnsureRemark", chkRemarkMandatory.Checked.ToString());
+                modules.UpdateModuleSetting(this.ModuleId, "EnsureInterest", chkInterestMandatory.Checked.ToString());
             }
             catch (Exception exc) //Module failed to load
             {

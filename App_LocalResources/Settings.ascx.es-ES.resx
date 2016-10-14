@@ -124,7 +124,7 @@
     <value>Dirección</value>
   </data>
 	<data name="lblBodytext.Help" xml:space="preserve">
-    <value>Introduzca el Mailtext para el Emailbody. Utilice los siguientes marcadores de posición: [FIRSTNAME],[LASTNAME],[ORGANIZATION],[ADDRESS],[PHONE],[FAX],[EMAIL],[REMARK]</value>
+    <value>Introduzca el Mailtext para el Emailbody. Utilice los siguientes marcadores de posición: [FIRSTNAME],[LASTNAME],[ORGANIZATION],[ADDRESS],[PHONE],[FAX],[EMAIL],[INTEREST],[PRODUCT],[REMARK]</value>
   </data>
 	<data name="lblBodytext.Text" xml:space="preserve">
     <value>Cuerpo del correo</value>
@@ -175,7 +175,7 @@
     <value>Enviar copia al usuario</value>
   </data>
 	<data name="lblSubject.Help" xml:space="preserve">
-    <value>Ingrese al asunto para el correo electrónico. Utilice los siguientes marcadores de posición: [Apellido], [Apellido], [organización], [dirección], [teléfono], [FAX], [EMAIL], [Nota]</value>
+    <value>Ingrese al asunto para el correo electrónico. Utilice los siguientes marcadores de posición: [FIRSTNAME],[LASTNAME],[ORGANIZATION],[ADDRESS],[PHONE],[FAX],[EMAIL],[REMARK]</value>
   </data>
 	<data name="lblSubject.Text" xml:space="preserve">
     <value>Asunto</value>
@@ -191,5 +191,26 @@
 	</data>
 	<data name="lblVisible.Text" xml:space="preserve">
 		<value>visible</value>
+	</data>
+	<data name="lblBootstrap.Help" xml:space="preserve">
+		<value>Comprobar si tienes una piel 3 bootstrap</value>
+	</data>
+	<data name="lblBootstrap.Text" xml:space="preserve">
+		<value>Utilizar bootstrap 3</value>
+	</data>
+	<data name="lblInterest.Text" xml:space="preserve">
+		<value>Interés</value>
+	</data>
+	<data name="lblInterests.Help" xml:space="preserve">
+		<value>Escriba una lista separada por comas de temas, se mostrará como dropdownlist</value>
+	</data>
+	<data name="lblInterests.Text" xml:space="preserve">
+		<value>Interés</value>
+	</data>
+	<data name="lblProductHelp.Help" xml:space="preserve">
+		<value>Colocar imágenes en carpeta &lt;i&gt;/Portals/x/Images/BBContact/&lt;/i&gt;. Debe ser el tipo de archivo png!</value>
+	</data>
+	<data name="lblProduct.Text" xml:space="preserve">
+		<value>Producto</value>
 	</data>
 </root>

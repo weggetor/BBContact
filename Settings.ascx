@@ -3,6 +3,10 @@
 <div id="bbcontact-settings" class="dnnForm bbcontact-settings dnnClear">
     <fieldset>
         <div class="dnnFormItem">
+            <dnn:Label ID="lblBootstrap" runat="server" ControlName="chkBootstrap" Suffix=":"/>
+            <asp:CheckBox ID="chkBootstrap" runat="server"/>
+        </div>
+        <div class="dnnFormItem">
             <dnn:Label ID="lblSenderName" runat="server" ControlName="txtSenderName" Suffix=":"/>
             <asp:TextBox runat="server" ID="txtSenderName"/>
         </div>
@@ -21,6 +25,10 @@
         <div class="dnnFormItem">
             <dnn:Label ID="lblSubject" runat="server" ControlName="txtSubject" Suffix=":"/>
             <asp:TextBox runat="server" ID="txtSubject"/>
+        </div>
+        <div class="dnnFormItem">
+            <dnn:Label ID="lblInterests" runat="server" ControlName="txtInterests" Suffix=":"/>
+            <asp:TextBox runat="server" ID="txtInterests" Rows="4" TextMode="MultiLine" Font-Names='courier, "courier new", monospace' />
         </div>
         <div class="dnnFormItem">
             <dnn:Label ID="lblBodytext" runat="server" ControlName="txtBodytext" Suffix=":"/>
@@ -70,10 +78,21 @@
                     <td><asp:CheckBox runat="server" ID="chkEmailMandatory"/></td>
                 </tr>
                 <tr>
+                    <td><asp:Label ID="lblInterest" runat="server" ResourceKey="lblInterest.Text"/></td>
+                    <td><asp:CheckBox runat="server" ID="chkInterestVisible"/></td>
+                    <td><asp:CheckBox runat="server" ID="chkInterestMandatory"/></td>
+                </tr>
+                <tr>
+                    <td><asp:Label ID="lblProduct" runat="server" ResourceKey="lblProduct.Text"/></td>
+                    <td><asp:CheckBox runat="server" ID="chkProductVisible"/></td>
+                    <td><dnn:Label runat="server" ID="lblProductHelp" /></td>
+                </tr>
+                <tr>
                     <td><asp:Label ID="lblRemark" runat="server" ResourceKey="lblRemark.Text"/></td>
                     <td><asp:CheckBox runat="server" ID="chkRemarkVisible"/></td>
                     <td><asp:CheckBox runat="server" ID="chkRemarkMandatory"/></td>
                 </tr>
+                
             </table>
     </fieldset>
 </div>

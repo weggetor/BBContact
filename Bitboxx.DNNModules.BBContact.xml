@@ -15,101 +15,30 @@
             </history> 
             ----------------------------------------------------------------------------- 
         </member>
-        <member name="T:DNNtc.PackageProperties">
-            <summary>
-            This class is used to set information about the package
-            </summary>
-        </member>
-        <member name="M:DNNtc.PackageProperties.#ctor(System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean)">
-            <summary>
-            Creates a attribute with the right properties to create a package. Use on View element
-            </summary>
-            <param name="name">The package name</param>
-            <param name="viewOrder">Ordinal number for sorting packages in the manifest</param>
-            <param name="friendlyName">The package friendly name</param>
-            <param name="description">The package description</param>
-            <param name="iconFile">The package iconfile name</param>
-            <param name="ownerName">Name of Owner</param>
-            <param name="ownerOrganization">Organization of owner</param>
-            <param name="ownerUrl">Url of owner</param>
-            <param name="ownerEmail">Email of owner</param>
-            <param name="azureCompatible">Flag for Azure Compatibility</param>
-        </member>
-        <member name="M:DNNtc.PackageProperties.#ctor(System.String)">
-            <summary>
-            Creates a attribute with the right properties to create a package. Use on other elements
-            </summary>
-            <param name="name">The package name</param>
-        </member>
-        <member name="T:DNNtc.ModuleProperties">
-            <summary>
-            This class is used to set information about the module
-            </summary>
-        </member>
-        <member name="M:DNNtc.ModuleProperties.#ctor(System.String,System.String,System.Int32)">
-            <summary>
-            Creates a attribute with the right properties to create a module. Use on View element
-            </summary>
-            <param name="name">The module name.</param>
-            <param name="friendlyname">The module friendlyname.</param>
-            <param name="defaultCacheTime">the module default cachetime.</param>
-        </member>
-        <member name="M:DNNtc.ModuleProperties.#ctor(System.String)">
-            <summary>
-            Creates a attribute with the right properties to create a module. Use on other elements
-            </summary>
-            <param name="name">The module name.</param>
-        </member>
-        <member name="T:DNNtc.ModuleControlProperties">
-            <summary>
-            This class is used to indicate which UserControls should be in the install package
-            </summary>
-        </member>
-        <member name="M:DNNtc.ModuleControlProperties.#ctor(System.String,System.String,DNNtc.ControlType,System.String,System.Boolean,System.Boolean)">
-            <summary>
-            Creates a attribute with the right properties to create a control.
-            </summary>
-            <param name="key">The key.</param>
-            <param name="title">The title.</param>
-            <param name="userControlType">type of the user control.</param>
-            <param name="helpUrl">The help URL.</param>
-            <param name="supportsPartialRendering">if set to <c>true</c> [supports partial rendering].</param>
-            <param name="supportsPopUps">if set to <c>true</c> [supports pop ups].</param>
-        </member>
-        <member name="T:DNNtc.ModulePermission">
-            <summary>
-            Module permission attribute
-            </summary>
-        </member>
-        <member name="M:DNNtc.ModulePermission.#ctor(System.String,System.String,System.String)">
-            <summary>
-            Empty Constructor for Intellisense
-            </summary>
-            <param name="Code"></param>
-            <param name="Key"></param>
-            <param name="Name"></param>
-        </member>
-        <member name="T:DNNtc.ComponentType">
-            <summary>
-            Enum for type of component used.
-            </summary>
-        </member>
-        <member name="T:DNNtc.ControlType">
-            <summary>
-            Enum for the type of controls DotNetNuke is using. 
-            </summary>
-        </member>
-        <member name="T:DNNtc.ModuleDependency">
-            <summary>
-            The type of dependency for the DotNetNuke Module
-            </summary>
-        </member>
         <member name="T:Bitboxx.DNNModules.BBContact.Settings">
             -----------------------------------------------------------------------------
             <summary>
             The Settings class manages Module Settings
             </summary>
             -----------------------------------------------------------------------------
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.Settings.lblBootstrap">
+            <summary>
+            lblBootstrap control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.Settings.chkBootstrap">
+            <summary>
+            chkBootstrap control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
         </member>
         <member name="F:Bitboxx.DNNModules.BBContact.Settings.lblSenderName">
             <summary>
@@ -195,6 +124,24 @@
         <member name="F:Bitboxx.DNNModules.BBContact.Settings.txtSubject">
             <summary>
             txtSubject control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.Settings.lblInterests">
+            <summary>
+            lblInterests control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.Settings.txtInterests">
+            <summary>
+            txtInterests control.
             </summary>
             <remarks>
             Auto-generated field.
@@ -435,6 +382,60 @@
             To modify move field declaration from designer file to code-behind file.
             </remarks>
         </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.Settings.lblInterest">
+            <summary>
+            lblInterest control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.Settings.chkInterestVisible">
+            <summary>
+            chkInterestVisible control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.Settings.chkInterestMandatory">
+            <summary>
+            chkInterestMandatory control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.Settings.lblProduct">
+            <summary>
+            lblProduct control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.Settings.chkProductVisible">
+            <summary>
+            chkProductVisible control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.Settings.lblProductHelp">
+            <summary>
+            lblProductHelp control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
         <member name="F:Bitboxx.DNNModules.BBContact.Settings.lblRemark">
             <summary>
             lblRemark control.
@@ -480,6 +481,15 @@
             <summary>
             The View class displays the content
             </summary>
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.View.pnlBBContact">
+            <summary>
+            pnlBBContact control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
         </member>
         <member name="F:Bitboxx.DNNModules.BBContact.View.pnlFirstname">
             <summary>
@@ -742,6 +752,78 @@
             To modify move field declaration from designer file to code-behind file.
             </remarks>
         </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.View.pnlInterest">
+            <summary>
+            pnlInterest control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.View.lblInterest">
+            <summary>
+            lblInterest control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.View.ddlInterest">
+            <summary>
+            ddlInterest control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.View.valInterest">
+            <summary>
+            valInterest control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.View.pnlProduct">
+            <summary>
+            pnlProduct control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.View.lblProduct">
+            <summary>
+            lblProduct control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.View.imgProduct">
+            <summary>
+            imgProduct control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.View.hidProduct">
+            <summary>
+            hidProduct control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
         <member name="F:Bitboxx.DNNModules.BBContact.View.pnlRemark">
             <summary>
             pnlRemark control.
@@ -778,6 +860,15 @@
             To modify move field declaration from designer file to code-behind file.
             </remarks>
         </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.View.pnlSendButtonDnn">
+            <summary>
+            pnlSendButtonDnn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
         <member name="F:Bitboxx.DNNModules.BBContact.View.lblDummy">
             <summary>
             lblDummy control.
@@ -787,9 +878,27 @@
             To modify move field declaration from designer file to code-behind file.
             </remarks>
         </member>
-        <member name="F:Bitboxx.DNNModules.BBContact.View.cmdSend">
+        <member name="F:Bitboxx.DNNModules.BBContact.View.cmdSendDnn">
             <summary>
-            cmdSend control.
+            cmdSendDnn control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.View.pnlSendButtonBootstrap">
+            <summary>
+            pnlSendButtonBootstrap control.
+            </summary>
+            <remarks>
+            Auto-generated field.
+            To modify move field declaration from designer file to code-behind file.
+            </remarks>
+        </member>
+        <member name="F:Bitboxx.DNNModules.BBContact.View.cmdSendBootstrap">
+            <summary>
+            cmdSendBootstrap control.
             </summary>
             <remarks>
             Auto-generated field.
@@ -808,6 +917,95 @@
         <member name="M:Bitboxx.DNNModules.BBContact.View.Page_Load(System.Object,System.EventArgs)">
             <summary>
             Runs when the control is loaded
+            </summary>
+        </member>
+        <member name="T:DNNtc.PackageProperties">
+            <summary>
+            This class is used to set information about the package
+            </summary>
+        </member>
+        <member name="M:DNNtc.PackageProperties.#ctor(System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Creates a attribute with the right properties to create a package. Use on View element
+            </summary>
+            <param name="name">The package name</param>
+            <param name="viewOrder">Ordinal number for sorting packages in the manifest</param>
+            <param name="friendlyName">The package friendly name</param>
+            <param name="description">The package description</param>
+            <param name="iconFile">The package iconfile name</param>
+            <param name="ownerName">Name of Owner</param>
+            <param name="ownerOrganization">Organization of owner</param>
+            <param name="ownerUrl">Url of owner</param>
+            <param name="ownerEmail">Email of owner</param>
+            <param name="azureCompatible">Flag for Azure Compatibility</param>
+        </member>
+        <member name="M:DNNtc.PackageProperties.#ctor(System.String)">
+            <summary>
+            Creates a attribute with the right properties to create a package. Use on other elements
+            </summary>
+            <param name="name">The package name</param>
+        </member>
+        <member name="T:DNNtc.ModuleProperties">
+            <summary>
+            This class is used to set information about the module
+            </summary>
+        </member>
+        <member name="M:DNNtc.ModuleProperties.#ctor(System.String,System.String,System.Int32)">
+            <summary>
+            Creates a attribute with the right properties to create a module. Use on View element
+            </summary>
+            <param name="name">The module name.</param>
+            <param name="friendlyname">The module friendlyname.</param>
+            <param name="defaultCacheTime">the module default cachetime.</param>
+        </member>
+        <member name="M:DNNtc.ModuleProperties.#ctor(System.String)">
+            <summary>
+            Creates a attribute with the right properties to create a module. Use on other elements
+            </summary>
+            <param name="name">The module name.</param>
+        </member>
+        <member name="T:DNNtc.ModuleControlProperties">
+            <summary>
+            This class is used to indicate which UserControls should be in the install package
+            </summary>
+        </member>
+        <member name="M:DNNtc.ModuleControlProperties.#ctor(System.String,System.String,DNNtc.ControlType,System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Creates a attribute with the right properties to create a control.
+            </summary>
+            <param name="key">The key.</param>
+            <param name="title">The title.</param>
+            <param name="userControlType">type of the user control.</param>
+            <param name="helpUrl">The help URL.</param>
+            <param name="supportsPartialRendering">if set to <c>true</c> [supports partial rendering].</param>
+            <param name="supportsPopUps">if set to <c>true</c> [supports pop ups].</param>
+        </member>
+        <member name="T:DNNtc.ModulePermission">
+            <summary>
+            Module permission attribute
+            </summary>
+        </member>
+        <member name="M:DNNtc.ModulePermission.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Empty Constructor for Intellisense
+            </summary>
+            <param name="Code"></param>
+            <param name="Key"></param>
+            <param name="Name"></param>
+        </member>
+        <member name="T:DNNtc.ComponentType">
+            <summary>
+            Enum for type of component used.
+            </summary>
+        </member>
+        <member name="T:DNNtc.ControlType">
+            <summary>
+            Enum for the type of controls DotNetNuke is using. 
+            </summary>
+        </member>
+        <member name="T:DNNtc.ModuleDependency">
+            <summary>
+            The type of dependency for the DotNetNuke Module
             </summary>
         </member>
     </members>

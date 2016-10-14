@@ -1,3 +1,14 @@
 .spamdefend { visibility: hidden;float:right}
 .spamdefend input[type=text] {width: 1px; font: 1px Arial, sans-serif; border: 0px solid #666; visibility: hidden; }
 
+label.dnnFormRequired:after {
+    content: "*";
+    display: inline-block;
+    margin: 0 0 0 5px;
+    color: Red;
+    font-size: 16px;
+    line-height: 1em;
+    font-weight: bold;
+}
+span.valError { color: red;}
+

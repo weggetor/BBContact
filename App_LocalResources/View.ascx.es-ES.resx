@@ -180,4 +180,13 @@
 	<data name="valRemark.Text" xml:space="preserve">
     <value>Observación se requiere</value>
   </data>
+	<data name="valInterest.Text" xml:space="preserve">
+		<value>Interés es necesario</value>
+	</data>
+	<data name="lblInterest.Text" xml:space="preserve">
+		<value>Interesado en:</value>
+	</data>
+	<data name="lblProduct.Text" xml:space="preserve">
+		<value>Producto:</value>
+	</data>
 </root>
